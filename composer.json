@@ -1,0 +1,50 @@
+{
+    "name": "voltstack/exception-lab",
+    "description": "The Exception Lab Package for VoltStack Framework",
+    "license": "MIT",
+    "keywords": [
+        "voltstack",
+        "exception",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Francisco J. Morales",
+            "email": "francisco.morales@voltstack.net"
+        }
+    ],
+    "homepage": "https://voltstack.net",
+    "require": {
+        "php": "^8.3",
+        "voltstack/framework": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.1"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../voltstack-framework",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VoltStack\\ExceptionLab\\": "src",
+            "VoltStack\\ExceptionLab\\Pages\\": "app/Pages/",
+            "VoltStack\\ExceptionLab\\Controllers\\": "app/Controllers/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VoltStack\\ExceptionLab\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    }
+}
