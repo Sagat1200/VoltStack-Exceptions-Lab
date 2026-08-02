@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VoltStack\HttpLab\Provider;
+namespace VoltStack\ExceptionLab\Provider;
 
 use Quantum\View\ViewFactory;
 use VoltStack\ExceptionLab\Service\Provider\Routes\ExceptionLabRouteService;
