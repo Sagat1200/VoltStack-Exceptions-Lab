@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "scope": "documentary_integrity_only",
+  "documents_expected": 41,
+  "documents_found": 41,
+  "closed_manifest_matches": true,
+  "broken_local_links": [],
+  "unbalanced_code_fences": [],
+  "json_examples_parsed": 3,
+  "utf8_readable": true,
+  "total_words": 21324,
+  "total_markdown_bytes": 165186,
+  "implementation_tests_executed": false,
+  "files": [
+    {
+      "file": "00_EXCEPTION_SYSTEM_PROJECT_CONTEXT.md",
+      "bytes": 9997,
+      "sha256": "1d4e81757d51b9d3dfe6a0161eb018cebbe3224471bc45b05adf175cfbbd9bbe"
+    },
+    {
+      "file": "01_EXCEPTION_SYSTEM_ARCHITECTURE.md",
+      "bytes": 3884,
+      "sha256": "543c49808368390f26b170ad70650745d9d5301419171245120d51cc5061415b"
+    },
+    {
+      "file": "02_PUBLIC_CONTRACTS_AND_DOMAIN_MODEL.md",
+      "bytes": 5686,
+      "sha256": "5f27278d72ec63977c2b229e6194f174f6e4f16a667da9cc27343858244f5961"
+    },
+    {
+      "file": "03_EXCEPTION_LIFECYCLE_AND_PIPELINE.md",
+      "bytes": 3767,
+      "sha256": "98b21565614e0868f0ae80d926c6cc73e19497c07d9729e41895088a4e08eba7"
+    },
+    {
+      "file": "04_EXCEPTION_MANAGER_AND_ORCHESTRATION.md",
+      "bytes": 3611,
+      "sha256": "2eee857d1fde3495cc99f344f97fba0ade072e5d4a6060ae81a5e55c00cac3e6"
+    },
+    {
+      "file": "05_EXCEPTION_CONTEXT_AND_SCOPE_SYSTEM.md",
+      "bytes": 3585,
+      "sha256": "811dd43a0d75df974716bb7bc742d16c8857cd913bee92a1c7136fa3551811e2"
+    },
+    {
+      "file": "06_EXCEPTION_DESCRIPTOR_AND_ERROR_CATALOG.md",
+      "bytes": 3980,
+      "sha256": "60469710c5b0e2e72d2fbc0c69536d2535b2610d4d6f45ad1a0876cb17c7ed60"
+    },
+    {
+      "file": "07_NORMALIZATION_AND_PHP_ERROR_CAPTURE.md",
+      "bytes": 3460,
+      "sha256": "47a1d304a008481ea7d1c28d47b1986240d97160410e9570686ae08573670a1d"
+    },
+    {
+      "file": "08_EXCEPTION_MAPPING_ENGINE.md",
+      "bytes": 3365,
+      "sha256": "ff98f7884f3881f5c2ce548a93f0d38b2b391125b7c4bbb7520815c3f3aa6331"
+    },
+    {
+      "file": "09_DOMAIN_TO_TRANSPORT_MAPPING.md",
+      "bytes": 3449,
+      "sha256": "ed9f6bd7f653a983b28a41707ac8d1235adb64560b72beada62d47c486821c84"
+    },
+    {
+      "file": "10_REPORTING_POLICY_AND_DEDUPLICATION.md",
+      "bytes": 3327,
+      "sha256": "1e0cc415cd017a3063b9b54b7d4ee9a612c3f8a97f2231cecf2612d8e1e13479"
+    },
+    {
+      "file": "11_REPORTER_PIPELINE_AND_DELIVERY.md",
+      "bytes": 3123,
+      "sha256": "3826ce19f1bc4a6bb28d3063d5f2489ff321ca9fb8ab4ddf080746bd74f383c3"
+    },
+    {
+      "file": "12_RENDERING_NEGOTIATION_AND_RESPONSE_RESOLUTION.md",
+      "bytes": 3095,
+      "sha256": "3369f6a65de18275d2196dbeb3fb17c396d62957c587a533cda7a07d24f6408b"
+    },
+    {
+      "file": "13_HTTP_EXCEPTIONS_AND_STATUS_SEMANTICS.md",
+      "bytes": 3442,
+      "sha256": "3b38ca7cebd5ee98194a042f82f5abf83dcbfc1265acd24f0b5bbcd4ebcec459"
+    },
+    {
+      "file": "14_HTML_RENDERING_AND_ERROR_PAGES.md",
+      "bytes": 3142,
+      "sha256": "8d5faf9a675e7a1982aa2f56b2e4ba7704f3d3c9708c9482cca22d695efea61f"
+    },
+    {
+      "file": "15_JSON_PROBLEM_DETAILS_AND_API_ERRORS.md",
+      "bytes": 3280,
+      "sha256": "09eda45ce7cca78f1b24a97accc1c5d1e625e7897faad15cd325b835cddf836a"
+    },
+    {
+      "file": "16_NATIVE_SPA_EXCEPTION_PROTOCOL.md",
+      "bytes": 5071,
+      "sha256": "690f4acda34641a2406e8c417c3ff2bbaf7b2597a4bcd56b501519d7ada8075e"
+    },
+    {
+      "file": "17_COMPONENT_EXCEPTION_BOUNDARIES.md",
+      "bytes": 3483,
+      "sha256": "e032c0d6b548cb00be81375615889e3f8c7ea38fa1576af35a38720d73b5385a"
+    },
+    {
+      "file": "18_CLI_EXCEPTION_RENDERING_AND_EXIT_CODES.md",
+      "bytes": 3048,
+      "sha256": "b3f0169d24a45852d2ae900febdeabb1dadac1e41a9ccd972e23f186ffc37853"
+    },
+    {
+      "file": "19_EXCEPTION_EVENTS_AND_EVENT_SYSTEM_INTEGRATION.md",
+      "bytes": 3434,
+      "sha256": "608199bde9412b7e69109fd9f85a4fff74cf46bfffdd2790e34b75bfa084141c"
+    },
+    {
+      "file": "20_RECOVERY_RETRY_AND_EFFECT_SAFETY.md",
+      "bytes": 3739,
+      "sha256": "9aa1d884d69f7e84282beb18cdd7d4c87f34a23d256db190776ac322e9aa1da3"
+    },
+    {
+      "file": "21_SECURITY_AND_THREAT_MODEL.md",
+      "bytes": 3436,
+      "sha256": "b185e013e761cbf8694e0d4eb2fc6ba7f3acc3def9b103f90212f7b45cd63de6"
+    },
+    {
+      "file": "22_PRIVACY_REDACTION_AND_DATA_GOVERNANCE.md",
+      "bytes": 3512,
+      "sha256": "5c14717f83f9d75376c1a436a59da9e500a0b76254ccabcb5409579f76595b86"
+    },
+    {
+      "file": "23_TELEMETRY_TRACING_METRICS_AND_CORRELATION.md",
+      "bytes": 3857,
+      "sha256": "37c34ec1ca7f0b8f3feea1d39cf8eb99c059f5212c61433d18a6520cd44c0ad6"
+    },
+    {
+      "file": "24_ASYNC_JOBS_QUEUES_AND_CANCELLATION.md",
+      "bytes": 3455,
+      "sha256": "c8ac07b10165166e9f343fde699bcecd058312ab8a008c17c8e82b5fc39e5cbe"
+    },
+    {
+      "file": "25_PERSISTENT_RUNTIME_LIFECYCLE_AND_ISOLATION.md",
+      "bytes": 3527,
+      "sha256": "75cec592facfc528183a7745927796a7dc60c26a9823290f82b1dfb55de917b7"
+    },
+    {
+      "file": "26_FRANKENPHP_DEFAULT_RUNTIME.md",
+      "bytes": 3527,
+      "sha256": "30a2458696e4c10fc710b57a2a960fdd7cf9aeeb15364f4fc855ef698cafa335"
+    },
+    {
+      "file": "27_ROADRUNNER_OPENSWOOLE_AND_RUNTIME_ADAPTERS.md",
+      "bytes": 3430,
+      "sha256": "891afca78ea764cf6bf92bb2ac289a144a55bd48396764683c4843c7a988ef44"
+    },
+    {
+      "file": "28_HTTPKERNEL_ROUTING_AND_CONTROLLERS_INTEGRATION.md",
+      "bytes": 3323,
+      "sha256": "eba501b639f401681ab7fdbaa03170c4deaace851522ee1f19ee7d0021556d59"
+    },
+    {
+      "file": "29_AUTHENTICATION_AUTHORIZATION_AND_VALIDATION_INTEGRATION.md",
+      "bytes": 3678,
+      "sha256": "740c43d4087a8598074fbc19f742b2fee8998c1eaf762fd0f6539eaa3296592a"
+    },
+    {
+      "file": "30_DATABASE_TRANSACTIONS_AND_INFRASTRUCTURE_INTEGRATION.md",
+      "bytes": 3569,
+      "sha256": "dd503e8a225e71ca17e3d9178c4bdae801b2945d49e8884516514fe91676d4da"
+    },
+    {
+      "file": "31_CONFIGURATION_REFERENCE_AND_VALIDATION.md",
+      "bytes": 5782,
+      "sha256": "d9d32ceb20be346597357871649908efaed5e82e4c8704c56fb1bb40d07e0320"
+    },
+    {
+      "file": "32_CONTAINER_BOOTSTRAP_AND_PLATFORM_COMPOSITION.md",
+      "bytes": 3649,
+      "sha256": "3f08caf8be82eb01d6112da1894a35762cf1a54da1df8576c6ee4a34e7589726"
+    },
+    {
+      "file": "33_DEVELOPER_EXPERIENCE_AND_DEBUGGING.md",
+      "bytes": 4178,
+      "sha256": "1048935e5e59e03e0a4e4678dbcfe4fbfa8f5b4ef6e45e0693a291a8c40d4cac"
+    },
+    {
+      "file": "34_PRODUCTION_BEHAVIOR_AND_OPERATIONAL_RUNBOOKS.md",
+      "bytes": 3875,
+      "sha256": "72e181a4d6f596d701b41532fb998631836d41748081848f29247d47e0b9488b"
+    },
+    {
+      "file": "35_PERFORMANCE_AND_RESOURCE_GOVERNANCE.md",
+      "bytes": 3380,
+      "sha256": "753ca7b77af0a5802abdf6aa18af3a777dc2d9a705bb4e370ce6034aaa8245b9"
+    },
+    {
+      "file": "36_CACHE_COMPILATION_AND_DEPLOYMENT.md",
+      "bytes": 3371,
+      "sha256": "6fd3dfd3187b71910215a7d98ef7459bf275573692aafa4a11f3f173307c86fd"
+    },
+    {
+      "file": "37_EXTENSIBILITY_VERSIONING_AND_INTEROPERABILITY.md",
+      "bytes": 3762,
+      "sha256": "2d8b6701247f1ca225fd76c761b3b7c018ffa00e24142c38a53255efd71c6f40"
+    },
+    {
+      "file": "38_TESTING_CONTRACTS_AND_ACCEPTANCE_MATRIX.md",
+      "bytes": 5376,
+      "sha256": "e9db571ea85478faae2e52ed0c6e696485889c4b999989a9b9529d1c5a643002"
+    },
+    {
+      "file": "39_REFERENCE_SCENARIOS_DECISIONS_AND_SOURCES.md",
+      "bytes": 7088,
+      "sha256": "8fefbbaed14f5cb36cd544c070cc8c272e4bbc818db3a76e357976cd277c45b5"
+    },
+    {
+      "file": "40_EXCEPTION_SYSTEM_INTEGRATION_AND_FINAL_ARCHITECTURE.md",
+      "bytes": 6443,
+      "sha256": "0e33be20346b0c4c286330fbb729b1d057d590451835710116668632d103d392"
+    }
+  ]
+}

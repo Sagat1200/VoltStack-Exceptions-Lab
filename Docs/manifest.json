@@ -1,0 +1,171 @@
+{
+  "edition": "1.0-proposed",
+  "date": "2026-10-04",
+  "namespace": "VoltStack\\Quantum\\Exceptions",
+  "documents": [
+    {
+      "file": "00_EXCEPTION_SYSTEM_PROJECT_CONTEXT.md",
+      "title": "Contexto del proyecto e índice cerrado"
+    },
+    {
+      "file": "01_EXCEPTION_SYSTEM_ARCHITECTURE.md",
+      "title": "Arquitectura del sistema de excepciones"
+    },
+    {
+      "file": "02_PUBLIC_CONTRACTS_AND_DOMAIN_MODEL.md",
+      "title": "Contratos públicos y modelo de dominio"
+    },
+    {
+      "file": "03_EXCEPTION_LIFECYCLE_AND_PIPELINE.md",
+      "title": "Ciclo de vida y pipeline"
+    },
+    {
+      "file": "04_EXCEPTION_MANAGER_AND_ORCHESTRATION.md",
+      "title": "Exception Manager y orquestación"
+    },
+    {
+      "file": "05_EXCEPTION_CONTEXT_AND_SCOPE_SYSTEM.md",
+      "title": "Contexto, scopes y aislamiento"
+    },
+    {
+      "file": "06_EXCEPTION_DESCRIPTOR_AND_ERROR_CATALOG.md",
+      "title": "Descriptor y catálogo de errores"
+    },
+    {
+      "file": "07_NORMALIZATION_AND_PHP_ERROR_CAPTURE.md",
+      "title": "Normalización y captura de errores PHP"
+    },
+    {
+      "file": "08_EXCEPTION_MAPPING_ENGINE.md",
+      "title": "Motor de mapping de excepciones"
+    },
+    {
+      "file": "09_DOMAIN_TO_TRANSPORT_MAPPING.md",
+      "title": "Mapping de dominio a transporte"
+    },
+    {
+      "file": "10_REPORTING_POLICY_AND_DEDUPLICATION.md",
+      "title": "Política de reporting y deduplicación"
+    },
+    {
+      "file": "11_REPORTER_PIPELINE_AND_DELIVERY.md",
+      "title": "Pipeline de reporters y entrega"
+    },
+    {
+      "file": "12_RENDERING_NEGOTIATION_AND_RESPONSE_RESOLUTION.md",
+      "title": "Negociación y resolución de presentación"
+    },
+    {
+      "file": "13_HTTP_EXCEPTIONS_AND_STATUS_SEMANTICS.md",
+      "title": "Excepciones HTTP y semántica de estados"
+    },
+    {
+      "file": "14_HTML_RENDERING_AND_ERROR_PAGES.md",
+      "title": "Renderizado HTML y páginas de error"
+    },
+    {
+      "file": "15_JSON_PROBLEM_DETAILS_AND_API_ERRORS.md",
+      "title": "JSON, Problem Details y errores de API"
+    },
+    {
+      "file": "16_NATIVE_SPA_EXCEPTION_PROTOCOL.md",
+      "title": "Protocolo de excepciones de la SPA nativa"
+    },
+    {
+      "file": "17_COMPONENT_EXCEPTION_BOUNDARIES.md",
+      "title": "Boundaries de excepción en componentes"
+    },
+    {
+      "file": "18_CLI_EXCEPTION_RENDERING_AND_EXIT_CODES.md",
+      "title": "CLI, salida estructurada y códigos de salida"
+    },
+    {
+      "file": "19_EXCEPTION_EVENTS_AND_EVENT_SYSTEM_INTEGRATION.md",
+      "title": "Eventos e integración con Event System"
+    },
+    {
+      "file": "20_RECOVERY_RETRY_AND_EFFECT_SAFETY.md",
+      "title": "Recovery, retries y seguridad de efectos"
+    },
+    {
+      "file": "21_SECURITY_AND_THREAT_MODEL.md",
+      "title": "Seguridad y modelo de amenazas"
+    },
+    {
+      "file": "22_PRIVACY_REDACTION_AND_DATA_GOVERNANCE.md",
+      "title": "Privacidad, redacción y gobierno de datos"
+    },
+    {
+      "file": "23_TELEMETRY_TRACING_METRICS_AND_CORRELATION.md",
+      "title": "Telemetry, trazas, métricas y correlación"
+    },
+    {
+      "file": "24_ASYNC_JOBS_QUEUES_AND_CANCELLATION.md",
+      "title": "Async, Jobs, Queues y cancelación"
+    },
+    {
+      "file": "25_PERSISTENT_RUNTIME_LIFECYCLE_AND_ISOLATION.md",
+      "title": "Ciclo de vida en runtimes persistentes"
+    },
+    {
+      "file": "26_FRANKENPHP_DEFAULT_RUNTIME.md",
+      "title": "FrankenPHP como runtime predeterminado"
+    },
+    {
+      "file": "27_ROADRUNNER_OPENSWOOLE_AND_RUNTIME_ADAPTERS.md",
+      "title": "Adaptadores RoadRunner y OpenSwoole"
+    },
+    {
+      "file": "28_HTTPKERNEL_ROUTING_AND_CONTROLLERS_INTEGRATION.md",
+      "title": "Integración con HTTPKernel, Routing y Controllers"
+    },
+    {
+      "file": "29_AUTHENTICATION_AUTHORIZATION_AND_VALIDATION_INTEGRATION.md",
+      "title": "Authentication, Authorization y Validation"
+    },
+    {
+      "file": "30_DATABASE_TRANSACTIONS_AND_INFRASTRUCTURE_INTEGRATION.md",
+      "title": "Database, transacciones e infraestructura"
+    },
+    {
+      "file": "31_CONFIGURATION_REFERENCE_AND_VALIDATION.md",
+      "title": "Referencia de configuración y validación"
+    },
+    {
+      "file": "32_CONTAINER_BOOTSTRAP_AND_PLATFORM_COMPOSITION.md",
+      "title": "Container, bootstrap y composición Platform"
+    },
+    {
+      "file": "33_DEVELOPER_EXPERIENCE_AND_DEBUGGING.md",
+      "title": "Experiencia de desarrollo y debugging"
+    },
+    {
+      "file": "34_PRODUCTION_BEHAVIOR_AND_OPERATIONAL_RUNBOOKS.md",
+      "title": "Producción y procedimientos operativos"
+    },
+    {
+      "file": "35_PERFORMANCE_AND_RESOURCE_GOVERNANCE.md",
+      "title": "Performance y gobierno de recursos"
+    },
+    {
+      "file": "36_CACHE_COMPILATION_AND_DEPLOYMENT.md",
+      "title": "Cache, compilación y despliegue"
+    },
+    {
+      "file": "37_EXTENSIBILITY_VERSIONING_AND_INTEROPERABILITY.md",
+      "title": "Extensibilidad, versionado e interoperabilidad"
+    },
+    {
+      "file": "38_TESTING_CONTRACTS_AND_ACCEPTANCE_MATRIX.md",
+      "title": "Testing, contratos y matriz de aceptación"
+    },
+    {
+      "file": "39_REFERENCE_SCENARIOS_DECISIONS_AND_SOURCES.md",
+      "title": "Escenarios de referencia, decisiones y fuentes"
+    },
+    {
+      "file": "40_EXCEPTION_SYSTEM_INTEGRATION_AND_FINAL_ARCHITECTURE.md",
+      "title": "Integración del sistema y arquitectura final"
+    }
+  ]
+}
